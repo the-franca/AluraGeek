@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
 body {
     padding: 0;
     margin: 0;
@@ -5,28 +7,68 @@ body {
 
 .cabecalho {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    height: 467px;
+    flex-direction: column;
+    box-sizing: border-box;
+     
 }
 
-.cabecalho__pesquisa {
+.cabecalho__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    height: 115px;
+}
+
+.cabecalho__nav__pesquisa {
     border-style: solid;
     border-width: 1px;
     border-radius: 15px;
 }
 
-.cabecalho__pesquisa__barra {
+.cabecalho__nav__pesquisa__barra {
     margin: 5px;
     border: 0;
     background-color: #FFFFFF;
 }
 
-.cabecalho__pesquisa__botao {
+.cabecalho__nav__pesquisa__botao {
     margin: 5px;
     border: 0;
     background-color: #FFFFFF;
 }
 
-.cabecalho__pesquisa__botao:hover {
+.cabecalho__nav__pesquisa__botao:hover {
     cursor: pointer;
+}
+
+.cabecalho__banner {
+    height: 325px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(imagens/banner.png);
+    padding: 34px 0 0 152px;
+}
+
+.cabecalho__banner__texto {
+    height: 286px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 32px;
+}
+
+.cabecalho__banner__texto h1 {
+    font-size: 52px;
+    margin: 0;
+}
+
+.cabecalho__banner__texto p {
+    font-size: 22px;
+    margin: 0;
 }
