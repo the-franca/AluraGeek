@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 body {
+    width: 1440px;
+    height: 100vh;
     padding: 0;
-    margin: 0;
+    margin: auto;
 }
 
 .cabecalho {
@@ -18,39 +20,79 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+    width: 1440px;
     height: 115px;
+    background: #FFFFFF;
+    align-self: stretch;
 }
 
-.cabecalho__nav__pesquisa {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 15px;
+.cabecalho__nav__logoebarra {
+    width: 1136px;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+    gap: auto;
+    margin: 0 152px;
 }
 
-.cabecalho__nav__pesquisa__barra {
+.cabecalho__nav__logoebarra__pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    width: 601px;
+}
+
+.cabecalho__nav__logoebarra__pesquisa form {
+    background: #F5F5F5;
+    border-radius: 20px;
+}
+
+.cabecalho__nav__logoebarra__pesquisa__barra {
     margin: 5px;
     border: 0;
-    background-color: #FFFFFF;
+    background-color: #F5F5F5;
+    width: 339px;
 }
 
-.cabecalho__nav__pesquisa__botao {
+
+.cabecalho__nav__logoebarra__pesquisa__botao {
     margin: 5px;
     border: 0;
-    background-color: #FFFFFF;
+    background-color: #F5F5F5;
 }
 
-.cabecalho__nav__pesquisa__botao:hover {
+.cabecalho__nav__logoebarra__pesquisa__botao:hover {
     cursor: pointer;
 }
 
+.cabecalho__nav__login {
+    border: solid;
+    border-color: #2A7AE4;
+    border-width: 1px;
+    width: 182px;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px; 
+    color: #2A7AE4;  
+}
+
 .cabecalho__banner {
-    height: 325px;
+    height: 352px;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(imagens/banner.png);
-    padding: 34px 0 0 152px;
+    background-size: 120%;
+    padding: 32px 0;
+    
 }
 
 .cabecalho__banner__texto {
     height: 286px;
+    width: 1136px;
+    margin: 34px 152px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -60,7 +102,7 @@ body {
     font-weight: 700;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 32px;
+    
 }
 
 .cabecalho__banner__texto h1 {
