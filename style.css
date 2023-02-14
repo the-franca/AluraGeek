@@ -114,3 +114,14 @@ body {
     font-size: 22px;
     margin: 0;
 }
+
+.cabecalho__banner__texto a {
+    color: white;
+    background: #2A7AE4;
+    width: 130px;
+    padding: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
