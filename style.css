@@ -124,3 +124,48 @@ body {
     text-decoration: none;
     text-align: center;
 }
+
+.star-wars {
+    width: 1136px;
+    height: 306;
+    display: flex;
+    flex-direction: column;
+    margin: 64px 152px;
+}
+
+.star-wars__apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star-wars__apresentacao h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.star-wars__apresentacao a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.star-wars__imagens ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0;
+}
+
+.nome__produto {
+
+}
+
+.preco_produto {
+
+}
