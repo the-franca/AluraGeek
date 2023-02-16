@@ -125,7 +125,7 @@ body {
     text-align: center;
 }
 
-.star-wars {
+.produtos__container {
     width: 1136px;
     height: 306;
     display: flex;
@@ -133,19 +133,19 @@ body {
     margin: 64px 152px;
 }
 
-.star-wars__apresentacao {
+.produtos__container__apresentacao {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.star-wars__apresentacao h2 {
+.produtos__container__apresentacao h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
     font-weight: 700;
 }
 
-.star-wars__apresentacao a {
+.produtos__container__apresentacao a {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -153,7 +153,7 @@ body {
     text-decoration: none;
 }
 
-.star-wars__imagens ul {
+.produtos__container__imagens ul {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -162,10 +162,24 @@ body {
     padding: 0;
 }
 
-.nome__produto {
-
+.produtos__container__produto {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #464646;
 }
 
-.preco_produto {
+.produtos__container_produto {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
 
+.produtos__container__imagens a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2A7AE4;
+    text-decoration: none;
 }
