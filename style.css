@@ -183,3 +183,102 @@ body {
     color: #2A7AE4;
     text-decoration: none;
 }
+
+.faleConosco {
+    display: flex;
+    width: 1440px;
+    height: 368px;
+    gap: 115px;
+    align-items: center;
+    justify-content: center;
+    background: #EAF2FD;
+    
+}
+
+.faleConosco__container {
+    width: 1136px;
+    height: 240px;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 112px;
+}
+
+.faleConosco__container__logo {
+    flex: none;
+}
+
+.faleConosco__container__links {
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    
+    gap: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+.faleConosco__container__links a {
+    text-decoration: none;
+}
+
+.faleConosco__container__contato {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 560px;
+    height: 240px;
+    justify-content: space-between;
+}
+
+.faleConosco__container__contato p {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.faleConosco__container__contato__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;   
+}
+
+.faleConosco__container__contato__formulario__nome {
+    height: 40px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border-width: 0;
+    box-shadow: 0 1px 0 0 #B4B8C5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #A2A2A2;
+}
+
+.faleConosco__container__contato__formulario__mensagem {
+    height: 82px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border-width: 0;
+    box-shadow: 0 1px 0 0 #B4B8C5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A2A2A2;
+}
+
+.faleConosco__container__contato__botao {
+    height: 51px;
+    width: 165px;
+    background: #2A7AE4;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: 0;
+}
