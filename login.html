@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+            <nav class="cabecalho__nav">
+                <div class="cabecalho__nav__logoebarra">
+                    <div class="cabecalho__nav__logoebarra__pesquisa">
+                        <img src="imagens/Logo.png" alt="Logo da Alura Geek">
+                        <form>
+                            <input class="cabecalho__nav__logoebarra__pesquisa__barra" type="search" placeholder="O que deseja encontrar?">
+                            <button class="cabecalho__nav__logoebarra__pesquisa__botao" type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>          
+                </div>
+            </nav>
+    </header>
+
+    <main>
+        <section class="login">
+            <div class="login__formulario">
+                <p>Iniciar Sessão</p>
+                <input class="login__formulario__dados" type="email" id="email_usuario" name="email" placeholder="Escreva seu email">
+                <input class="login__formulario__dados" type="password" id="senha_usuário" name="senha" placeholder="Escreva sua senha">
+                <input class="login__formulario__botao" type="submit" value="Entrar">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="faleConosco">
+            <div class="faleConosco__container">
+                <img class="faleConosco__container__logo" src="imagens/Logo.png">
+                <div class="faleConosco__container__links">
+                    <a href="">Quem somos nós</a>
+                    <a href="">Politica de privacidade</a>
+                    <a href="">Programa fidelidade</a>
+                    <a href="">Nossas lojas</a>
+                    <a href="">Quero ser franqueado</a>
+                    <a href="">Anuncie aqui</a>
+                </div>
+                <div class="faleConosco__container__contato">
+                    <p>Fale conosco</p>
+                    <form class="faleConosco__container__contato__formulario">
+                        <input type="text" name="nome" placeholder="Nome" id="fnome" class="faleConosco__container__contato__formulario__nome">
+                        <input type="text" name="mensagem" placeholder="Escreva sua mensagem" id="fmensagem" class="faleConosco__container__contato__formulario__mensagem">
+                    </form>
+                    <input type="submit" value="Enviar mensagem" class="faleConosco__container__contato__botao">
+                </div>
+            </div>
+        </div>
+
+        <div class="criadoPor">
+            <p>Desenvolvido por Gleydson França</p>
+            <p>2023</p>
+        </div>
+
+
+    </footer>
+</body>
+</html>
