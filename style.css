@@ -353,3 +353,65 @@ body {
     color: #FFFFFF;
     border-width: 0;
 }
+
+/* CSS Produtos */
+
+.todosProdutos {
+    height: 1070px;
+    width: 1440px;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.todosProdutos__lista {
+    width: 1136px;
+    height: 942px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.todosProdutos__lista__topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.todosProdutos__lista__topo p {
+    margin: 0;
+}
+
+.todosProdutos__lista__topo a {
+    width: 165px;
+    background-color: #2A7AE4;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px;
+    color: #FFFFFF;
+}
+
+.todosProdutos__lista__produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.todosProdutos__lista__produtos div ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
