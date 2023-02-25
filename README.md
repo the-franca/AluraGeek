@@ -8,7 +8,7 @@ Este projeto faz parte do desafio alura. O intuito do desafio é criar o marketi
 
 ## Progresso
 - [x] Criar Homepage
-- [ ] Criar página de produtos e login
+- [x] Criar página de produtos e login
     - [x] Login
-    - [ ] Produtos
+    - [x] Produtos
 - [ ] Criar interface do Administrador
