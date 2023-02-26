@@ -4,7 +4,6 @@
 
 body {
     width: 1440px;
-    height: 100vh;
     padding: 0;
     margin: auto;
 }
@@ -137,6 +136,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 64px 152px;
+    gap: 16px;
 }
 
 .produtos__container__apresentacao {
@@ -149,6 +149,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
     font-weight: 700;
+    margin: 0;
 }
 
 .produtos__container__apresentacao a {
@@ -159,7 +160,7 @@ body {
     text-decoration: none;
 }
 
-.produtos__container__imagens ul {
+.produtos__container__imagens {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -168,21 +169,29 @@ body {
     padding: 0;
 }
 
-.nome__produto {
+.produtos__container__imagens__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.produtos__container__imagens__conteudo__nome {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #464646;
+    margin: 0;
 }
 
-.preco_produto {
+.produtos__container__imagens__conteudo__preco {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 16px;
     color: #464646;
+    margin: 0;
 }
 
-.produtos__container__imagens a {
+.produtos__container__imagens__conteudo a {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -530,4 +539,109 @@ body {
     font-weight: 400;
     font-size: 16px; 
     color: #2A7AE4;  
+}
+
+/* Produto Descrição CSS */
+
+.produto__detalhes {
+    display: flex;
+    flex-direction: column;
+    background: #F5F5F5;
+}
+
+.produto__detalhes p, h2 {
+    margin: 0;
+}
+
+.produto__detalhes__descricao {
+    width: 1136px;
+    height: 403px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 64px 152px;
+}
+
+.produto__detalhes__descricao__info {
+    width: 560px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.produto__detalhes__descricao__info h2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    color: #464646;
+}
+
+.produto__detalhes__descricao__info__preco {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
+
+.produto__detalhes__descricao__info__descricao {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #464646;
+}
+
+.produto__detalhes__similares {
+    width: 1136px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 152px 64px;
+}
+
+.produto__detalhes__similares__produtos {
+    display: flex;
+    gap: 16px;
+}
+
+.produto__detalhes__similares__titulo h2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;   
+}
+
+.produto__detalhes__similares__produtos__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.produto__detalhes__similares__produtos__conteudo__nome {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #464646;
+}
+
+.produto__detalhes__similares__produtos__conteudo__preco {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
+
+.produto__detalhes__similares__produtos__conteudo a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2A7AE4;
+    text-decoration: none;
 }
