@@ -11,7 +11,7 @@ Este projeto faz parte do desafio alura. O intuito do desafio é criar o marketi
 - [x] Criar página de produtos e login
     - [x] Login
     - [x] Produtos
-    - [ ] Adicionar novo produto
-    - [ ] Página do produto(Opcional)
-    - [ ] Seção de produtos similares(Opcional)
+    - [x] Adicionar novo produto
+    - [x] Página do produto(Opcional)
+    - [x] Seção de produtos similares(Opcional)
 - [ ] Criar interface do Administrador
