@@ -49,6 +49,7 @@ body {
 .cabecalho__nav__logoebarra__pesquisa form {
     background: #F5F5F5;
     border-radius: 20px;
+    
 }
 
 .cabecalho__nav__logoebarra__pesquisa__barra {
@@ -56,6 +57,7 @@ body {
     border: 0;
     background-color: #F5F5F5;
     width: 339px;
+    outline: 0;
 }
 
 
@@ -260,6 +262,7 @@ body {
     font-weight: 400;
     font-size: 12px;
     color: #A2A2A2;
+    outline: 0;
 }
 
 .faleConosco__container__contato__formulario__mensagem {
@@ -272,6 +275,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #A2A2A2;
+    outline: 0;
 }
 
 .faleConosco__container__contato__botao {
@@ -435,4 +439,73 @@ body {
     font-weight: 700;
     font-size: 16px;
     color: #464646;
+}
+
+/* CSS novo produto */
+
+.formulario__produto {
+    display: flex;
+    height: 619px;
+    width: 1440px;
+    align-items: center;
+    background: #F5F5F5;
+}
+
+.formulario__produto__container {
+    width: 559px;
+    height: 491px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;  
+}
+
+.formulario__produto__container h2 {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.formulario__produto__container__input {
+    width: 559px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #ccc;
+    background: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+    justify-content: center;
+}
+
+.formulario__produto__container__input label {
+    padding: 0;
+    width: 535px;
+    margin: 0 auto;
+}
+
+.formulario__produto__container__input input {
+    border: none;
+    outline: 0;
+    padding: 0;
+    margin: 0 auto;
+    height: 20px;
+    width: 535px;
+}
+
+.formulario__produto__container__input:nth-last-child(2) {
+    height: 82px;
+}
+
+.formulario__produto__container__botao {
+    background: #2A7AE4;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 16px 0;
 }
