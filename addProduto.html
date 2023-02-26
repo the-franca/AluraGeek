@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Novo Produto</title>
+</head>
+<body>
+    <header>
+            <nav class="cabecalho__nav">
+                <div class="cabecalho__nav__logoebarra">
+                    <div class="cabecalho__nav__logoebarra__pesquisa">
+                        <img src="imagens/Logo.png" alt="Logo da Alura Geek">
+                        <form>
+                            <input class="cabecalho__nav__logoebarra__pesquisa__barra" type="search" placeholder="O que deseja encontrar?">
+                            <button class="cabecalho__nav__logoebarra__pesquisa__botao" type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>          
+                </div>
+            </nav>
+    </header>
+
+    <main>
+        <section class="formulario__produto">
+            <div class="formulario__produto__container">
+                <h2>Adionar novo produto</h2>
+                <div class="formulario__produto__container__input">
+                    <label for="url_imagem">URL da imagem</label>
+                    <input id="url_imagem" nome="imagem" type="url">
+                </div>
+                <div class="formulario__produto__container__input">
+                    <label for="categoria_prod">Categoria</label>
+                    <input id="categoria_prod" nome="categoria" type="text">
+                </div>
+                <div class="formulario__produto__container__input">
+                    <label for="nome_prod">Nome do produto</label>
+                    <input id="nome_prod" nome="nome" type="text">
+                </div>
+                <div class="formulario__produto__container__input">
+                    <label for="preco_prod">Preço do produto</label>
+                    <input id="preco_prod" nome="preco" type="text">
+                </div>
+                <div class="formulario__produto__container__input">
+                    <label for="descricao_prod">Descrição do produto</label>
+                    <input id="descricao_prod" nome="descricao" type="text">
+                </div>
+                <input type="submit" value="Adcionar produto" class="formulario__produto__container__botao">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="faleConosco">
+            <div class="faleConosco__container">
+                <img class="faleConosco__container__logo" src="imagens/Logo.png">
+                <div class="faleConosco__container__links">
+                    <a href="">Quem somos nós</a>
+                    <a href="">Politica de privacidade</a>
+                    <a href="">Programa fidelidade</a>
+                    <a href="">Nossas lojas</a>
+                    <a href="">Quero ser franqueado</a>
+                    <a href="">Anuncie aqui</a>
+                </div>
+                <div class="faleConosco__container__contato">
+                    <p>Fale conosco</p>
+                    <form class="faleConosco__container__contato__formulario">
+                        <input type="text" name="nome" placeholder="Nome" id="fnome" class="faleConosco__container__contato__formulario__nome">
+                        <input type="text" name="mensagem" placeholder="Escreva sua mensagem" id="fmensagem" class="faleConosco__container__contato__formulario__mensagem">
+                    </form>
+                    <input type="submit" value="Enviar mensagem" class="faleConosco__container__contato__botao">
+                </div>
+            </div>
+        </div>
+
+        <div class="criadoPor">
+            <p>Desenvolvido por Gleydson França</p>
+            <p>2023</p>
+        </div>
+
+
+    </footer>
+</body>
+</html>
