@@ -86,10 +86,10 @@ body {
 }
 
 .cabecalho__banner {
-    box-sizing: border-box;
     height: 352px;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(imagens/banner.png);
-    align-items: center;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(imagens/banner.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .cabecalho__banner__texto {
@@ -645,3 +645,17 @@ body {
     color: #2A7AE4;
     text-decoration: none;
 }
+
+/* CSS Homepage - Recursivo */
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100vw;
+    }
+    
+    .cabecalho__banner {
+        height: 192px;       
+    }
+    
+}
+
