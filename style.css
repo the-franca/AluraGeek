@@ -86,15 +86,14 @@ body {
 }
 
 .cabecalho__banner {
-    box-sizing: border-box;
     height: 352px;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(imagens/banner.png);
-    align-items: center;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(imagens/banner.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .cabecalho__banner__texto {
     height: 286px;
-    width: 1136px;
     margin: 34px 152px;
     display: flex;
     flex-direction: column;
@@ -105,6 +104,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     justify-content: flex-end;
+    font-style: normal;
     align-items: flex-start;
     
 }
@@ -116,6 +116,8 @@ body {
 
 .cabecalho__banner__texto p {
     font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     margin: 0;
 }
 
@@ -645,3 +647,37 @@ body {
     color: #2A7AE4;
     text-decoration: none;
 }
+
+/* CSS Homepage - Recursivo */
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100vw;
+        
+    }
+    
+    .cabecalho__banner {
+        height: 192px;       
+    }
+    
+    .cabecalho__banner__texto {
+        height: 98px;
+        margin: 78px 16px 16px 16px;
+        gap: 8px;
+    }
+
+    .cabecalho__banner__texto h1 {
+        font-size: 22px;
+    }
+    
+    .cabecalho__banner__texto p {
+        font-size: 14px;
+    }
+    
+    .cabecalho__banner__texto a {
+        font-size: 14px;
+        width: auto;
+        padding: 12px 16px 12px 16px;
+    }
+}
+
