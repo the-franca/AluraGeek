@@ -655,6 +655,55 @@ body {
         width: 100vw;
         
     }
+
+    .cabecalho {
+        height: 264px;
+         
+    }
+    
+    .cabecalho__nav {
+        display: flex;
+        width: 100vw;
+        height: 72px;
+    }
+    
+    .cabecalho__nav__logoebarra {
+        width: 100vw;
+        height: 100%;
+        gap: auto;
+        margin: 0;
+        margin: 12px 16px;
+    }
+
+    .cabecalho__nav__logoebarra__pesquisa img {
+        width: 100px;
+        height: 28px;        
+    }
+        
+    .cabecalho__nav__logoebarra__pesquisa__barra {
+        margin: 5px;
+        border: 0;
+        background-color: #F5F5F5;
+        width: 0px;
+        outline: 0;
+    }
+    
+    
+    .cabecalho__nav__logoebarra__pesquisa__botao {
+        margin: 5px;
+        border: 0;
+        background-color: #F5F5F5;
+        position: absolute;
+        right: 16px;
+       
+    }
+
+    .cabecalho__nav__login {
+        padding: 12px 16px 12px 16px;
+        font-size: 14px;
+        position: relative;
+        right: 107px;       
+    }
     
     .cabecalho__banner {
         height: 192px;       
