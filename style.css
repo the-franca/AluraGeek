@@ -700,12 +700,12 @@ body {
         position: relative;
         padding: 12px 16px 12px 16px;
         width: 70px;
-        left: -75px;
+        left: 25px;
         font-size: 14px;
     }
     
     .cabecalho__banner {
-        height: 192px;       
+        height: auto;       
     }
     
     .cabecalho__banner__texto {
