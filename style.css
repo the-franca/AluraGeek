@@ -665,7 +665,7 @@ body {
     }
     
     .cabecalho__nav__logoebarra {
-        width: auto%;
+        width: auto;
         height: auto;
         gap: auto;
         margin: 0;
@@ -729,10 +729,11 @@ body {
     }
 
     .produtos__container {
-        width: 100vw;
-        height: 588px;
+        width: auto;
+        height: auto;
         margin: 16px;
         gap: 16px;
+        justify-content: space-between;
     }
 
     .produtos__container__apresentacao {
@@ -749,8 +750,8 @@ body {
     }
     
     .produtos__container__imagens {
-        width: 328px;
-        height: 498px;
+        width: auto;
+        height: auto;
         flex-wrap: wrap;
     }
 
