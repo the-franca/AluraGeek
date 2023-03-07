@@ -705,12 +705,14 @@ body {
     }
     
     .cabecalho__banner {
-        height: auto;       
+        height: auto;
+        justify-content: center;       
     }
     
     .cabecalho__banner__texto {
-        height: 98px;
-        margin: 78px 16px 16px 16px;
+        width: 328px;
+        height: auto;
+        margin: 78px auto 16px auto;
         gap: 8px;
     }
 
@@ -728,10 +730,15 @@ body {
         padding: 12px 16px 12px 16px;
     }
 
+    .produto {
+        display: flex;
+        justify-content: center;
+    }
+
     .produtos__container {
-        width: auto;
+        width: 328px;
         height: auto;
-        margin: 16px;
+        margin: 16px auto 16px auto;
         gap: 16px;
         justify-content: space-between;
     }
