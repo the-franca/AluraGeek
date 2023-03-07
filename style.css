@@ -652,12 +652,10 @@ body {
 @media screen and (max-width: 768px) {
     body {
         width: 100vw;
-        
     }
 
     .cabecalho {
-        height: 264px;
-         
+        height: 264px;  
     }
     
     .cabecalho__nav {
@@ -773,7 +771,9 @@ body {
 
     .faleConosco {
         width: 100vw;
+        height: auto;
         flex-direction: column;
+        gap: 0;
     }
 
     .faleConosco__container {
@@ -781,7 +781,8 @@ body {
         width: 328px;
         height: auto;
         align-items: center;
-        gap: 16px;
+        gap: 32px;
+        margin: 16px;
     }
 
     .faleConosco__container__links {
@@ -790,6 +791,12 @@ body {
 
     .faleConosco__container__contato {
         width: 100%;
+    }
+
+    .criadoPor {
+        width: 100vw;
+        height: auto;
+        margin: 32px auto;
     }
 }
 
