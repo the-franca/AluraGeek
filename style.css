@@ -647,9 +647,9 @@ body {
     text-decoration: none;
 }
 
-/* CSS Homepage - Recursivo 768px */
+/* CSS Homepage - Recursivo 767px */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     body {
         width: 100vw;
     }
@@ -807,6 +807,38 @@ body {
         width: 100vw;
         height: auto;
         margin: 32px auto;
+    }
+
+    /* CSS Login - 767px */
+
+    .login {
+        width: 100vw;
+        height: auto;
+    }
+    
+    .login__formulario {
+        margin: 97px auto 76px auto;
+        width: 275px;
+        height: 189px;
+        gap: 16px;
+        align-items: center;
+    }
+    
+    .login__formulario p {
+        font-size: 16px;
+    }
+    
+    .login__formulario__dados {
+        width: 100%;
+        font-size: 14px;
+        height: 41px;
+    }
+    
+    .login__formulario__botao {
+        font-size: 14px;
+        width: 109px;
+        height: 40px;
+        padding: 0;
     }
 }
 
