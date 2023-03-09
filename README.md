@@ -7,6 +7,9 @@ Este projeto faz parte do desafio alura. O intuito do desafio é criar o marketi
 3. Criar interface do Administrador
 
 ## Progresso
+
+No momento o projeto é composto apenas de páginas estáticas.
+
 - [x] Criar Homepage
 - [x] Criar página de produtos e login
     - [x] Login
@@ -14,4 +17,4 @@ Este projeto faz parte do desafio alura. O intuito do desafio é criar o marketi
     - [x] Adicionar novo produto
     - [x] Página do produto(Opcional)
     - [x] Seção de produtos similares(Opcional)
-- [ ] Criar interface do Administrador
+- [x] Criar interface do Administrador
