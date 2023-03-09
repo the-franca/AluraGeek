@@ -884,4 +884,50 @@ body {
       width: 140px;
       height: 174px; 
     }
+
+    /* CSS ADD PRODUTO - 767px */
+
+    .cabecalho__nav__administrador {
+        width: auto;
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+
+    .formulario__produto {
+        height: auto;
+        width: 100vw;
+    }
+    
+    .formulario__produto__container {
+        width: 328px;
+        height: auto;
+        margin: 16px auto;  
+    }
+    
+    .formulario__produto__container h2 {
+        font-size: 22px;
+    }
+    
+    .formulario__produto__container__input {
+        width: 100%;
+        height: 56px;
+        font-size: 12px;
+
+    }
+    
+    .formulario__produto__container__input label {
+        width: 304px;
+    }
+    
+    .formulario__produto__container__input input {
+        width: 304px;
+    }  
+    
+    .formulario__produto__container__botao {
+        background: #2A7AE4;
+        color: #FFFFFF;
+        width: 100%;
+        padding: 16px 0;
+        border-width: 0;
+    }
 }
