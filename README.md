@@ -18,3 +18,4 @@ No momento o projeto é composto apenas de páginas estáticas.
     - [x] Página do produto(Opcional)
     - [x] Seção de produtos similares(Opcional)
 - [x] Criar interface do Administrador
+- [ ] Adicionar JavaScript
